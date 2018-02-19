@@ -1,0 +1,133 @@
+body {
+	background-color: #A9A9A9;
+	font-size: 16px;
+	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+#header-nav{
+	background-color: #202020;
+	color: #333366;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo {
+	background: url('../images/anits.png') no-repeat ;
+	width: 100px;
+	height: 100px;
+	margin: 10px 0px 10px 0px;
+}
+.navbar-brand {
+	padding-top: 40px;
+}
+/*Anits lib..*/
+.navbar-brand h1{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #C0C0C0;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+#nav-list {
+	margin-top: 20px;
+}
+
+#nav-list a  {
+	color:#E0E0E0;  
+	text-align: center;
+}
+#nav-list a:hover {
+	background-color: #E7E7E7;
+	color:#202020;
+}
+#nav-list a span {
+	padding-bottom : 5px;
+	font-size: 1.7em;
+	/*align-font: center;*/
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid white;
+}
+
+/******large devices******/
+
+/*@media(min-width: 1200px)*/
+.jumbotron {
+	background: url('../images/dm.png') no-repeat;
+	height:450px;
+	box-shadow: 0 0 40px black;
+	border: 2px solid blue;
+	align-content: center;
+}
+
+/*
+@media(min-width: 992px) and (max-width: 1199px) {
+	.jumbotron{
+		background : ;
+	}
+}
+
+*/
+
+/* INFO module*/
+#racks-content{
+	background-color: #E8E8E8;
+}
+
+.racks-content h1{
+	text-align: center;
+	padding-bottom: 5px;
+	color: #808080;
+	/*text-shadow: 2px 2px 2px solid grey;*/
+}
+
+.racks-content img{
+	height: 250px;
+	width: 400px;
+	margin-left: 30px;
+}
+
+.rack-tile {
+	border-width: 5px;
+	border-color: ;
+	margin: 5px 0 10px 10px;
+	position: relative;
+}
+
+.rack-list{
+	float: right;
+	font-size: 1.3em;
+	font-color: solid black;
+	margin-right: 30px;
+}
+
+/* MAIn Info*/
+
+.head-info{
+	background-color: #E8E8E8;
+	font-size: 2em;
+
+}
+
+.head-info h1{
+	color: #333366;
+}
+
+#tabh{
+	text-align: center;
+	color: #585858;
+	font-size: 1.5em;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+table{
+	align-items: center;
+	font-size: .7em;
+	margin-bottom: 30px;
+}

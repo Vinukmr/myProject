@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Book Search</title>
+
+<style>
+
+body{
+	background-color : rgb(183, 201, 225);
+	}
+
+form{
+	margin-top:100px;
+	}
+
+select {
+    width: 250px;
+    padding: 8px 8px;
+    border: none;
+    box-sizing: border-box;
+    border-radius: px;
+    background-color: #f1f1f1;
+    text-align:center;
+    font-family : Arial,sans-serif;
+    font-size : 1.4em;
+}
+
+input[type=text]{
+	font-family : "Times New Roman", Times, serif;
+	font-size : 1.5em;
+	padding: 4px 8px;
+	width: 200px;
+	/*
+	height: 50px;
+	background-color : blue;*/
+	}
+</style>
+   </head>
+
+   <body>
+      <form  action = "/cgi-bin/dropdown.cgi" method = "post">
+         
+         <center>
+             <select name = "dropdown">
+             <option value = "Field" selected>Field</option>
+            <option value = "Author" >Author</option>
+            <option value = "Subject">Subject</option>
+            <option value = "Title">Title</option>
+         </select>
+        <input type = "text">
+	<br><br>
+         <select name = "dropdown">
+            <option value = "Select" selected>Select Year Of Publication</option>
+            <option value = "All">All</option>
+            <option value = "Between">Between</option>
+            <option value = "Upto">Upto</option>
+            <option value = "After">After</option>
+            
+         </select>
+          <input type = "text"/>
+
+	  </center>         
+	</form>
+   </body>
+
+</html>
